@@ -1,0 +1,106 @@
+#enterIdeas {
+    /* display: flex; */
+    flex-flow: column;
+    justify-content: space-around;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(184,172,184, 0.7);
+    border-radius: 10px;
+    display: none;
+}
+#enterIdeas input {
+    margin: 10px 0;
+    
+}
+#enterIdeas button:hover {
+    background-color: rgb(242,219,187);
+    transition: all 300ms;
+    
+}
+#header {
+    margin: 30px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+#header button {
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#header button:hover {
+    background-color:rgb(242,219,187);
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+.pAddNewCategory a {
+    color: grey;
+    font: 0.7rem;
+    text-align: right;
+}
+.pAddNewCategory:hover {
+    cursor: pointer;
+    color: darkblue;
+}
+#addNewCategory {
+    display: none;
+}
+.listIdeas {
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px grey solid;
+}
+.listIdeas button {
+    margin-left: 10px;
+    padding: 4px;
+    height: 60px;
+    border-radius: 10px;
+}
+.listIdeas button:hover {
+    
+        background-color: rgb(242,219,187);
+        transform: scale(1.2);
+        transition: all 300ms;
+       
+    
+}
+table {
+    width: 80%;
+    margin: auto;
+    
+}
+
+#divListIdeas {
+    /* border: 2px solid grey; */
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: auto;
+    /* display: none; */
+}
+.classTh1 {
+    width: 55px;
+    margin: 10px;
+    padding: 5px;
+
+}
+.classTh {
+width: 110px;
+margin: 10px;
+padding: 5px;
+}
+.fr {
+    background-color: rgb(184,172,184, 0.7);
+    height: 60px;
+}
+.alert {
+    text-align: center;
+    color: red;
+}
